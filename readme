@@ -1,0 +1,33 @@
+ТЕСТОВОЕ ЗАДАНИЕ: АВТОТЕСТЫ НА PYTHON + SELENIUM
+
+СТРУКТУРА ПРОЕКТА:
+autotest_project/
+├── tests/                    # Тесты
+│   ├── test_scenario1.py    # 1. Переход Saby.ru → Tensor.ru
+│   └── test_scenario2.py    # 2. Проверка регионов
+│
+├── pages/                   # Классы страниц
+│   ├── base_page.py        # Базовый класс
+│   ├── saby_page.py        # Страница Saby.ru
+│   └── tensor_page.py      # Страница Tensor.ru
+│
+├── screenshots/            # Скриншоты тестов
+├── requirements.txt        # Зависимости
+
+
+КАК ЗАПУСТИТЬ:
+
+1. УСТАНОВИТЕ ЗАВИСИМОСТИ:
+   Откройте командную строку в папке проекта:
+   pip install -r requirements.txt
+
+2. ЗАПУСТИТЕ ОТДЕЛЬНЫЙ ТЕСТ:
+   python tests/test_scenario1.py
+   python tests/test_scenario2.py
+
+🛠 ТЕХНОЛОГИИ:
+• Python 3.11+
+• Selenium WebDriver
+• Firefox Browser
+• Page Object Pattern
+

@@ -19,7 +19,6 @@ class BasePage:
 
     def find_element(self, locator):
         """Найти один элемент на странице"""
-        # locator - это способ найти элемент (например, по имени класса)
         return self.wait.until(EC.presence_of_element_located(locator))
 
     def find_elements(self, locator):

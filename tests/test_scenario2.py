@@ -179,7 +179,7 @@ def test_second_scenario():
         saby_page.take_screenshot("region_final")
 
         print("\n" + "=" * 70)
-        print("🎉 ТЕСТ 2 ВЫПОЛНЕН!")
+        print("ТЕСТ 2 ВЫПОЛНЕН!")
         print("=" * 70)
 
         return True
